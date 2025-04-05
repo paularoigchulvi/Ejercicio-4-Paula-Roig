@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Películas de Studio Ghibli</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Películas de Studio Ghibli hasta la fecha</h1>
+    <!-- añadimos el filtro para filtrar por DIRECTOR ya que el género de las pelis no aparece en la API -->
+    <label for="director-filter">Ver películas del director:</label>
+    <select id="director-filter">
+      <!-- y esto de abajo es donde aparecen las opciones(directores) -->
+        <option value="all">Cualquiera</option>
+    </select>
+    <section id="main-section"></section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
